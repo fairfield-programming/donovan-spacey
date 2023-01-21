@@ -1,9 +1,11 @@
+
+
 module.exports = () => {
 
     return <main>
         <div>
             <h1>
-                {global.name}
+                About
             </h1>
             <p>
                 {global.description}

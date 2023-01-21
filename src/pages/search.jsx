@@ -3,7 +3,7 @@ module.exports = () => {
     return <main>
         <div>
             <h1>
-                {global.name}
+                Search
             </h1>
             <p>
                 {global.description}
