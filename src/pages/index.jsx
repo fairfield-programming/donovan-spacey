@@ -13,10 +13,11 @@ module.exports = () => {
 
 }
 
-module.exports.getHead = () => {
+module.exports.metadata = () => {
 
-    return <>
-        <title>{project.name}</title>
-    </>;
+    return {
+        title: project.name,
+        description: project.description
+    };
 
 }
