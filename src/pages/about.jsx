@@ -3,7 +3,7 @@
 module.exports = () => {
 
     return <main>
-        <div>
+        <div className="w-full">
             <h1>
                 About
             </h1>

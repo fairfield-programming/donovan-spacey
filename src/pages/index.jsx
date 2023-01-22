@@ -1,7 +1,7 @@
 module.exports = () => {
 
     return <main>
-        <div>
+        <div className="w-full">
             <h1>
                 {global.name}
             </h1>
