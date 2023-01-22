@@ -6,7 +6,7 @@ module.exports = () => {
                 Search
             </h1>
             <p>
-                {global.description}
+                {project.description}
             </p>
         </div>
     </main>

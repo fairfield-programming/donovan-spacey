@@ -3,10 +3,10 @@ module.exports = () => {
     return <main>
         <div className="w-full">
             <h1>
-                {global.name}
+                {project.name}
             </h1>
             <p>
-                {global.description}
+                {project.description}
             </p>
         </div>
     </main>
