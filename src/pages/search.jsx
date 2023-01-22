@@ -12,3 +12,11 @@ module.exports = () => {
     </main>
 
 }
+
+module.exports.getHead = () => {
+
+    return <>
+        <title>Search &bull; {project.name}</title>
+    </>;
+
+}

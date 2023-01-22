@@ -1,5 +1,3 @@
-
-
 module.exports = () => {
 
     return <main>
@@ -12,5 +10,13 @@ module.exports = () => {
             </p>
         </div>
     </main>
+
+}
+
+module.exports.getHead = () => {
+
+    return <>
+        <title>About &bull; {project.name}</title>
+    </>;
 
 }
