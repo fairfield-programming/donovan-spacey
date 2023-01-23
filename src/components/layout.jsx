@@ -1,7 +1,9 @@
+import Header from "./header.jsx"
+
 module.exports = function Layout({ children }) {
 
     return <div>
-        <header></header>
+        <Header />
         <main>
             {children}
         </main>
