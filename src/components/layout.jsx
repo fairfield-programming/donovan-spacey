@@ -1,4 +1,4 @@
-export default function Layout({ children }) {
+module.exports = function Layout({ children }) {
 
     return <>
         <header></header>
