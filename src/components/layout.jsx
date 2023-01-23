@@ -1,4 +1,4 @@
-import Header from "./header.jsx"
+import Header from "./src/components/header.jsx"
 
 module.exports = function Layout({ children }) {
 
