@@ -1,11 +1,11 @@
 module.exports = function Layout({ children }) {
 
-    return <>
+    return <div>
         <header></header>
         <main>
             {children}
         </main>
         <footer>Made with ❤️ through Donovan</footer>
-    </>
+    </div>
 
 }
