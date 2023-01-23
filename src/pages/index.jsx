@@ -2,16 +2,14 @@ import Layout from "../components/layout"
 
 module.exports = () => {
 
-    return <main>
-        <div className="w-full">
+    return <Layout>
             <h1>
                 {project.name}
             </h1>
             <p>
                 {project.description}
             </p>
-        </div>
-    </main>
+    </Layout>
 
 }
 
