@@ -6,9 +6,7 @@ module.exports = () => {
         <h1>
             License
         </h1>
-        <p>
-            {project.license}
-        </p>
+        {project.license.split("\n").map(i => <p>{i}</p>)}
     </Layout>
 
 }
