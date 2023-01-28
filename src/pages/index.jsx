@@ -3,8 +3,6 @@ import Donovan from "donovan"
 
 module.exports = () => {
 
-    const path = Donovan.useState("/test");
-
     return <Layout>
             <h1>
                 {project.name}
