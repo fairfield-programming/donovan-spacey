@@ -6,7 +6,7 @@ module.exports = () => {
         <h1>
             License
         </h1>
-        {project.license.split("\n").map(i => (i == "") ? <></> : <p>{i}</p>)}
+        {project.license?.split("\n").map(i => (i == "") ? <></> : <p>{i}</p>)}
     </Layout>
 
 }

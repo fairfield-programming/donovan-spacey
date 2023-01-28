@@ -10,6 +10,8 @@ module.exports = () => {
             <p>
                 {project.description}
             </p>
+            <h2>Contributing</h2>
+            {(project.sections?.contributing || []).map(i => (i.type == "heading") ? <h3>{i.text}</h3> : <p>{i.text}</p>)}
     </Layout>
 
 }
