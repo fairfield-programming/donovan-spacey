@@ -9,6 +9,8 @@ module.exports = () => {
         <p>
             {project.description}
         </p>
+        <h2>Usage</h2>
+        {(project.sections?.usage || []).map(i => (i.type == "heading") ? <h3>{i.text}</h3> : <p>{i.text}</p>)}
     </Layout>
 
 }
