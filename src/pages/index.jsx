@@ -3,8 +3,6 @@ import Donovan from "donovan"
 
 module.exports = () => {
 
-    console.log(MODULE_PATH())
-
     return <Layout>
             <h1>
                 {project.name}
