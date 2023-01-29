@@ -1,4 +1,5 @@
 import Layout from "./src/components/layout.jsx"
+import "../example.css"
 
 module.exports = () => {
 
